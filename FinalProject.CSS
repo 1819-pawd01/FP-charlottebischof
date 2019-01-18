@@ -1,0 +1,118 @@
+/*
+* Charlotte Bischof 
+* Friday, January 18th, 2019 
+* Final Project 
+*/
+
+/* The universal selector */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Body attributes here */
+
+body {
+    width: 100%;
+    background-color: mintcream;
+
+}
+
+header {
+    border-bottom: 2px solid #ef9c00;
+    background-color: seashell; 
+    color: darkslategrey; 
+    padding-top: 2px; 
+    padding-right: 3px;
+    padding-left: 3px; 
+
+}
+
+nav {
+    width: 20%;
+    float: left;
+    border-right: 2px solid #ef9c00;
+    margin: 2px;
+    background-color: seashell;
+    color: darkslategray; 
+    padding-left: 10px; 
+
+}
+
+main {
+    width: 48%;
+    float: left;
+    margin: 20px;
+    background-color: lavenderblush; 
+
+}
+
+aside {
+    width: 25%;
+    float: left;
+    border-left: 2px solid #ef9c00;
+    margin-left: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: seashell;
+    color: darkslategray; 
+    margin-right: 5px; 
+
+
+}
+
+nav,
+main,
+aside {
+
+    height: 4640px;
+
+}
+
+
+footer {
+    border-top: 2px solid #ef9c00;
+    clear: both;
+    background-color: seashell; 
+    color: darkblue; 
+
+}
+
+li {
+    list-style-position: inside;
+
+}
+
+/* image settings for height*/ 
+img {
+    height: 120px;
+    width: 230px;
+
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: monospace
+}
+
+table {
+    color: darkblue;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+
+td {
+    text-align: center;
+    /* type selector */
+    border-color: blueviolet;
+
+}
+figure {
+    text-align: center; 
+    
+}
